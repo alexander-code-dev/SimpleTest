@@ -1,10 +1,11 @@
-package test;
+package service;
 
 import java.util.Objects;
 
 /**
  * Ответ
  */
+
 public class Answer {
 
     private final String answerStr;
@@ -19,6 +20,7 @@ public class Answer {
      * Текст ответа
      * @return - строка ответа
      */
+
     public String getAnswerStr() {
         return answerStr;
     }
@@ -27,6 +29,7 @@ public class Answer {
      * Признак коректного ответа
      * @return да/нет
      */
+
     public boolean isCorrect() {
         return isCorrect;
     }

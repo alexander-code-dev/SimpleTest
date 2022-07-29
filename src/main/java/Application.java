@@ -1,6 +1,6 @@
-import test.Answer;
-import test.Question;
-import test.SimpleTest;
+import service.Answer;
+import service.Question;
+import service.SimpleTest;
 
 public class Application {
     public static void main(String[] args) {
@@ -10,14 +10,14 @@ public class Application {
         Answer[] answersQuestion1 = {answer1Question1, answer2Question1};
         Question question1 = new Question("Как звать тебя Васька?", answersQuestion1);
 
-        // первый второй
+        // второй вопрос
         Answer answer1Question2 = new Answer("Упал с неба", true);
         Answer answer2Question2 = new Answer("С челябы", false);
-        Answer answer3Question3 = new Answer("Сам не знаю", false);
-        Answer[] answersQuestion2 = {answer1Question2, answer2Question2, answer3Question3};
+        Answer answer3Question2 = new Answer("Сам не знаю", false);
+        Answer[] answersQuestion2 = {answer1Question2, answer2Question2, answer3Question2};
         Question question2 = new Question("Откуда ты?", answersQuestion2);
 
-        // первый второй
+        // третий вопрос
         Answer answer1Question3 = new Answer("жепа", true);
         Answer answer2Question3 = new Answer("да норм так", false);
         Answer[] answersQuestion3 = {answer1Question3, answer2Question3};
