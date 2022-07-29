@@ -1,6 +1,8 @@
-import service.Answer;
-import service.Question;
-import service.SimpleTest;
+package org.example;
+
+import org.example.service.Answer;
+import org.example.service.Question;
+import org.example.service.SimpleTest;
 
 public class Application {
     public static void main(String[] args) {
